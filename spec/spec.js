@@ -79,9 +79,10 @@ describe('leastCommonMultiple', function(){
   });
 });
 
-// describe('', function(){
-//   it('', function(){
-//     expect(code.()).toEqual();
-//   });
-// });
+describe('aveStandDev', function(){
+  it('returns the average and standard deviation of two numbers', function(){
+    expect(code.aveStandDev(79, 97)).toEqual("The mean is 88 and the standard deviation is 9");
+    expect(code.aveStandDev(78, 16)).toEqual("The mean is 47 and the standard deviation is 31");
+  });
+});
 
